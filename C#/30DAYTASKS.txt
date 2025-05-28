@@ -1,0 +1,41 @@
+Week 1: Getting Started with the Basics
+Day	Topic	                            Task
+1	Setup + Hello World	                Install .NET SDK, create your first project, print "Hello World"
+2	Variables & Data Types	            Learn int, float, string, bool, char; declare and initialize
+3	Console Input/Output	            Use Console.ReadLine() and Console.WriteLine()
+4	Operators	                        Arithmetic, comparison, logical, assignment
+5	Control Flow: if/else	            Make a number guessing or age checker app
+6	Switch Statements	                Replace if/else chains with switch
+7	Mini-Project #1	                    Build a simple calculator CLI app
+
+Week 2: Core Programming Concepts
+Day	Topic	                            Task
+8	Loops: for & while	                Practice counting, summing, and patterns
+9	Loop: foreach	                    Iterate over arrays or strings
+10	Arrays	                            Declare, access, and loop through arrays
+11	Lists (List<T>)	                    Use dynamic collections and methods like .Add()
+12	Strings	                            Practice methods: .ToUpper(), .Substring(), etc.
+13	Methods	                            Define and call your own methods
+14	Mini-Project #2	                    Word counter or number analyzer tool
+
+Week 3: Object-Oriented Programming (OOP)
+Day	Topic	                            Task
+15	Classes & Objects	                Create a simple Car or Person class
+16	Fields & Properties	                Add private fields and public getters/setters
+17	Constructors	                    Initialize object values using constructors
+18	Inheritance	                        Create a Vehicle base class and Car/Bike subclass
+19	Polymorphism	                    Use virtual methods and overrides
+20	Encapsulation	                    Protect data using access modifiers
+21	Mini-Project #3	                    Simple student management or bank account system
+
+Week 4: Advanced Basics + Wrap-Up
+Day	Topic	                            Task
+22	Enums	                            Create a menu using enum options
+23	Exception Handling	                Use try/catch/finally with input validation
+24	File I/O	                        Read/write text files with File.ReadAllText()
+25	LINQ Basics	                        Use Where, Select, etc., on arrays/lists
+26	Structs vs Classes	                Learn differences; create a struct
+27	DateTime	                        Display date, time, and calculate age
+28	Collections (Dictionary, HashSet)	Use key-value and unique value stores
+29	Review + Refactor	                Review past projects and clean code
+30	Final Project	                    Small CLI tool (todo list, grade tracker, etc.)
