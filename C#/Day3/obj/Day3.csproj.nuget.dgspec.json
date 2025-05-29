@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\10MinuteDev\\C#\\Day3\\Day3.csproj": {}
+    "C:\\GitHub Projects\\10MinuteDev\\C#\\Day3\\Day3.csproj": {}
   },
   "projects": {
-    "E:\\10MinuteDev\\C#\\Day3\\Day3.csproj": {
+    "C:\\GitHub Projects\\10MinuteDev\\C#\\Day3\\Day3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\10MinuteDev\\C#\\Day3\\Day3.csproj",
+        "projectUniqueName": "C:\\GitHub Projects\\10MinuteDev\\C#\\Day3\\Day3.csproj",
         "projectName": "Day3",
-        "projectPath": "E:\\10MinuteDev\\C#\\Day3\\Day3.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "E:\\10MinuteDev\\C#\\Day3\\obj\\",
+        "projectPath": "C:\\GitHub Projects\\10MinuteDev\\C#\\Day3\\Day3.csproj",
+        "packagesPath": "C:\\Users\\Jhered\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub Projects\\10MinuteDev\\C#\\Day3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jhered\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
