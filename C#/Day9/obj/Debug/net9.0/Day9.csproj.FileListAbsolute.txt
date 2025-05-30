@@ -1,0 +1,15 @@
+E:\10MinuteDev\C#\Day9\bin\Debug\net9.0\Day9.exe
+E:\10MinuteDev\C#\Day9\bin\Debug\net9.0\Day9.deps.json
+E:\10MinuteDev\C#\Day9\bin\Debug\net9.0\Day9.runtimeconfig.json
+E:\10MinuteDev\C#\Day9\bin\Debug\net9.0\Day9.dll
+E:\10MinuteDev\C#\Day9\bin\Debug\net9.0\Day9.pdb
+E:\10MinuteDev\C#\Day9\obj\Debug\net9.0\Day9.GeneratedMSBuildEditorConfig.editorconfig
+E:\10MinuteDev\C#\Day9\obj\Debug\net9.0\Day9.AssemblyInfoInputs.cache
+E:\10MinuteDev\C#\Day9\obj\Debug\net9.0\Day9.AssemblyInfo.cs
+E:\10MinuteDev\C#\Day9\obj\Debug\net9.0\Day9.csproj.CoreCompileInputs.cache
+E:\10MinuteDev\C#\Day9\obj\Debug\net9.0\Day9.sourcelink.json
+E:\10MinuteDev\C#\Day9\obj\Debug\net9.0\Day9.dll
+E:\10MinuteDev\C#\Day9\obj\Debug\net9.0\refint\Day9.dll
+E:\10MinuteDev\C#\Day9\obj\Debug\net9.0\Day9.pdb
+E:\10MinuteDev\C#\Day9\obj\Debug\net9.0\Day9.genruntimeconfig.cache
+E:\10MinuteDev\C#\Day9\obj\Debug\net9.0\ref\Day9.dll
