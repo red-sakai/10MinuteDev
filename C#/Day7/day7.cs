@@ -32,12 +32,22 @@ namespace Day7
                     System.Console.WriteLine($"The answer is: {multiply1 * multiply2}");
                     break;
                 case 4:
-                    System.Console.WriteLine("Input integer 1: ");
-                    int divide1 = Convert.ToInt32(Console.ReadLine());
-                    System.Console.WriteLine("Input integer 2: ");
-                    int divide2 = Convert.ToInt32(Console.ReadLine());
-                    System.Console.WriteLine($"The answer is: {divide1 / divide2}");
-                    break;
+                    try
+                    {
+                        System.Console.WriteLine("Input integer 1: ");
+                        int divide1 = Convert.ToInt32(Console.ReadLine());
+                        System.Console.WriteLine("Input integer 2: ");
+                        int divide2 = Convert.ToInt32(Console.ReadLine());
+                        System.Console.WriteLine($"The answer is: {divide1 / divide2}");
+                        break;
+                    }
+                    // when the catch gets triggered, the DivideByZeroException gets assigned to the variable e
+                    catch (DivideByZeroException e)
+                    {
+                        System.Console.WriteLine("Cannot divide by Zero!");
+                        break;
+                    }
+
                 default:
                     System.Console.WriteLine("Please pick only integers 1-4.");
                     break;
