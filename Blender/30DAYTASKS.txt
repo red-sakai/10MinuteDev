@@ -1,0 +1,41 @@
+Week 1: Blender Basics & Interface Familiarity
+Day	Topic	                    Task
+1	Install Blender	            Download and install Blender. Explore the UI layout and navigation.
+2	Viewport Navigation	        Practice panning, zooming, rotating views, and using hotkeys.
+3	Object Mode Basics	        Add, move, scale, and rotate primitive objects (cube, sphere, etc.)
+4	Edit Mode Basics	        Learn about vertices, edges, faces; use extrude, inset, loop cut.
+5	Modifiers	                Experiment with Mirror, Subdivision, and Array modifiers.
+6	Materials & Shading	        Apply basic materials and change colors using Shader Editor.
+7	Mini Project #1	            Create a simple low-poly house or sword model.
+
+Week 2: Intermediate Modeling
+Day	Topic	                    Task
+8	Modeling a Character Base	Block out a simple humanoid or creature shape.
+9	Sculpting Basics	        Use Dyntopo and brushes to sculpt details.
+10	Retopology (Intro)	        Learn basics of simplifying sculpted models.
+11	UV Unwrapping Basics	    Unwrap simple models for texturing.
+12	Texture Painting	        Paint textures directly on the model or use image textures.
+13	Lighting Setup	            Add lights (Point, Sun, Area) and adjust scene lighting.
+14	Mini Project #2	            Model and texture a treasure chest, crate, or game prop.
+
+Week 3: Rigging and Animation
+Day	Topic	                    Task
+15	Introduction to Rigging	    Add an armature to your model and create a basic bone structure.
+16	Weight Painting	            Assign mesh influence to bones using weight paint.
+17	Posing & FK Animation	    Create basic poses and a simple walk cycle using forward kinematics.
+18	IK Rigging	                Add inverse kinematics for easier leg/arm movement.
+19	Animation Timeline	        Learn keyframes, dope sheet, graph editor.
+20	Camera Movement	            Animate camera tracking, zoom, or panning.
+21	Mini Project #3	            Animate a simple game action (e.g., attack, jump, idle).
+
+Week 4: Exporting & Game-Ready Workflow
+Day	Topic	                    Task
+22	Optimizing for Games	    Reduce poly count, apply transforms, rename objects.
+23	Export to GLTF/FBX	        Learn how to export models with animations for Unity/Unreal/Godot.
+24	Baking Textures & Normals	Bake normals and ambient occlusion for game use.
+25	Asset Organization	        Create collections, group objects, and prepare game asset folders.
+26	Game Engine Testing	        Import your model into a game engine and test the animation.
+27	VFX: Particle System	    Add basic particles like smoke, sparks, or fire.
+28	VFX: Shader Effects	        Create a glowing material or animated shader.
+29	Final Polish	            Clean up files, organize, and finalize your best model.
+30	Final Project	            Make a game-ready character or object with idle/walk animation.
