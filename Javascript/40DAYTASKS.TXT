@@ -1,0 +1,54 @@
+Week 1: Getting Started with JavaScript Basics
+Day	Topic	                                    Task
+1	Setup + Hello World	                        Set up your environment (browser console or VSCode + Node.js). Print "Hello World" in console.
+2	Variables & Data Types	                    Learn var, let, const. Declare and initialize strings, numbers, booleans.
+3	Console Input/Output	                    Use console.log(). Try using prompt() to get user input (browser).
+4	Operators	                                Practice arithmetic, comparison, logical, and assignment operators.
+5	Control Flow: if/else	                    Build a simple program to check if a number is positive, negative, or zero.
+6	Switch Statements	                        Replace if/else chains with switch for multiple conditions (e.g., day of the week).
+7	Mini-Project #1	                            Build a simple calculator that adds, subtracts, multiplies, or divides two numbers.
+
+Week 2: Core Programming Concepts
+Day	Topic	                                    Task
+8	Loops: for & while	                        Use for and while loops to count, sum numbers, and print patterns.
+9	Loop: forEach	                            Use .forEach() to iterate over arrays and print each element.
+10	Arrays	                                    Declare, access, and loop through arrays.
+11	Array Methods	                            Practice .push(), .pop(), .shift(), .unshift(), .map(), .filter().
+12	Strings	                                    Use string methods like .toUpperCase(), .substring(), .includes(), .split().
+13	Functions	                                Declare functions with parameters and return values.
+14	Mini-Project #2	                            Create a word counter or number analyzer tool using functions and arrays.
+
+Week 3: Objects and DOM Manipulation
+Day	Topic	                                    Task
+15	Objects	                                    Create objects with properties and methods (e.g., a person object with greet method).
+16	this keyword	                            Understand how this works inside object methods and functions.
+17	DOM Selection	                            Use document.getElementById, querySelector to select and manipulate elements.
+18	DOM Events	                                Add event listeners (click, input) to buttons or inputs and respond to events.
+19	Modify DOM Styles	                        Change element styles dynamically via JavaScript.
+20	Timers	                                    Use setTimeout and setInterval to create timed actions (e.g., a ticking clock).
+21	Mini-Project #3	                            Build a to-do list app: add, delete tasks with interactive buttons.
+
+Week 4: Intermediate JavaScript Concepts
+Day	Topic	                                    Task
+22	Classes	                                    Create classes and instantiate objects with constructors and methods.
+23	Promises & Async/Await	                    Write a simple async function that simulates fetching data with Promise and await.
+24	JSON	                                    Parse JSON strings and stringify objects.
+25	Array Methods Advanced	                    Use .filter(), .reduce(), and .find() on arrays for data manipulation.
+26	ES6 Modules	                                Learn about import and export in JavaScript modules (if using Node.js or bundlers).
+27	Error Handling	                            Use try/catch blocks to handle errors gracefully.
+28	Local Storage	                            Store and retrieve data in browser localStorage for persistence.
+29	Debugging	                                Use console.log, breakpoints, and browser dev tools to debug JavaScript code.
+30	Final Project	                            Build a small interactive project (weather widget, quiz app, or grade tracker).
+
+Week 5: Object-Oriented Programming (OOP) in JavaScript
+Day	Topic	                                    Task
+31	Introduction to Classes	                    Create a simple class (e.g., Person) with constructor and methods. Instantiate objects.
+32	Properties & Methods	                    Add properties and methods to your class. Practice accessing and modifying them.
+33	Getters and Setters	                        Use get and set to control access to properties in your class.
+34	Inheritance	                                Create a base class (e.g., Vehicle) and subclass (Car), extending functionality.
+35	Method Overriding	                        Override a method in the subclass and call the parent method using super.
+36	Static Methods and Fields	                Add static methods/properties to your classes and learn how to call them without instances.
+37	Encapsulation with Symbols or WeakMaps	    Use Symbols or WeakMaps to create private properties (simulate private variables).
+38	Mixins and Composition	                    Practice composing behavior using mixins instead of inheritance.
+39	Practical OOP Project	                    Build a simple inventory system or bank account system using classes and inheritance.
+40	Review and Refactor OOP	                    Refactor your OOP projects, add comments, and improve structure and readability.
