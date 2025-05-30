@@ -1,0 +1,12 @@
+Left mouse - select any objects
+Left click empty space - to deselect
+A - to select all
+Alt + A - to deselect all
+
+Middle Mouse Button - to pan 3d spaces
+Shift + Middle Mouse Button - to pan 2d spaces
+View -> Frame Selected - to focus on the selected object
+Scroll Wheel Button - Zoom in and Zoom out
+
+Perspective Mode - realistic view of your 3d model
+Orthograpic Mode - ignores all that, unrealistic view but makes model pixel perfect
