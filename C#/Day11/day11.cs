@@ -56,8 +56,23 @@ namespace Day11
             List<int> numbers4 = new List<int> { 5, 10, 15, 20, 25 };
             numbers4.Clear();
             System.Console.WriteLine(string.Join(", ", numbers4));
-            
+
             // .ToArray() add soon when you get how DSA works in C# - past jhered
+
+            // refer to line 42-44
+            // the => means that it is a lambda operation, it is a short way to write anonymous functions
+            // (functions without a name)
+            int result = number3.Find(n => n > 10);
+            System.Console.WriteLine(result);
+
+            /*
+            n => n > 10 means
+
+            bool isGreaterThan10(int n)
+            {
+                return n > 10;
+            }
+            */
         }
     }
 }
