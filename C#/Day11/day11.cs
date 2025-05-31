@@ -80,6 +80,19 @@ namespace Day11
             // the condition
             List<int> result2 = number3.FindAll(n => n > 2);
             System.Console.WriteLine(string.Join(", ", result2));
+
+            // .ForEach() functions just like a normal foreach loop
+            names1.ForEach(name => System.Console.WriteLine($"Hello {name}"));
+
+            // .Sort() allows to arrange the array alphabetically or numerically order them
+            int[] numbers6 = { 10, 2, 9, 6, 4 };
+            Array.Sort(numbers6);
+            foreach (int number in numbers6)
+            {
+                System.Console.WriteLine(number);
+            }
+
+            
         }
     }
 }
