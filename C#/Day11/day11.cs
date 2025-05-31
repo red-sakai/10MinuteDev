@@ -97,7 +97,10 @@ namespace Day11
             int index1 = name.IndexOf("M");
             System.Console.WriteLine($"The index of M is: {index1}");
 
-            
+            // refer to line 47-49
+            // .Insert() just inserts the element to the specified index
+            names3.Insert(0, "Republica");
+            System.Console.WriteLine(string.Join(", ", names3));
         }
     }
 }
