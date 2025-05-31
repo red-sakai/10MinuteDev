@@ -51,11 +51,13 @@ namespace Day11
             // .RemoveAt() removes the element inside the array based on the index
             names3.RemoveAt(0);
             System.Console.WriteLine(string.Join(", ", names3));
-            
+
             // .Clear() clears all the elements inside the array
             List<int> numbers4 = new List<int> { 5, 10, 15, 20, 25 };
             numbers4.Clear();
             System.Console.WriteLine(string.Join(", ", numbers4));
+            
+            // .ToArray() add soon when you get how DSA works in C# - past jhered
         }
     }
 }
