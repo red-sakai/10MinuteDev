@@ -62,6 +62,7 @@ namespace Day11
             // refer to line 42-44
             // the => means that it is a lambda operation, it is a short way to write anonymous functions
             // (functions without a name)
+            // the .Find() searches for an element that matches the condition and finds the first occurence of it
             int result = number3.Find(n => n > 10);
             System.Console.WriteLine(result);
 
@@ -73,6 +74,12 @@ namespace Day11
                 return n > 10;
             }
             */
+
+            // the .FindAll() is similar to .Find() it also searches for an element that matches the
+            // condition but instead of the first occurence, it retrieves ALL the elements that fulfills
+            // the condition
+            List<int> result2 = number3.FindAll(n => n > 2);
+            System.Console.WriteLine(string.Join(", ", result2));
         }
     }
 }
