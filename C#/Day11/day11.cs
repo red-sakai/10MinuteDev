@@ -43,7 +43,10 @@ namespace Day11
             bool hasNumber = number3.Contains(10);
             System.Console.WriteLine(hasNumber);
 
-
+            // .Remove() removes the inputted element inside the array
+            List<string> names3 = new List<string> { "Jhered", "Shaikah", "DeadFall" };
+            names3.Remove("DeadFall");
+            System.Console.WriteLine(string.Join(", ", names3));
         }
     }
 }
