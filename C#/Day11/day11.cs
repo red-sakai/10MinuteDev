@@ -92,6 +92,11 @@ namespace Day11
                 System.Console.WriteLine(number);
             }
 
+            // .IndexOf() returns the index value of the input element
+            string name = "Jhered Miguel";
+            int index1 = name.IndexOf("M");
+            System.Console.WriteLine($"The index of M is: {index1}");
+
             
         }
     }
