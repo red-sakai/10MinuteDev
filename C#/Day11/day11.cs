@@ -47,6 +47,10 @@ namespace Day11
             List<string> names3 = new List<string> { "Jhered", "Shaikah", "DeadFall" };
             names3.Remove("DeadFall");
             System.Console.WriteLine(string.Join(", ", names3));
+
+            // .RemoveAt() removes the element inside the array based on the index
+            names3.RemoveAt(0);
+            System.Console.WriteLine(string.Join(", ", names3));
         }
     }
 }
