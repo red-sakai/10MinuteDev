@@ -1,0 +1,15 @@
+E:\10MinuteDev\C#\Day17\obj\Debug\net9.0\Day17.GeneratedMSBuildEditorConfig.editorconfig
+E:\10MinuteDev\C#\Day17\obj\Debug\net9.0\Day17.AssemblyInfoInputs.cache
+E:\10MinuteDev\C#\Day17\obj\Debug\net9.0\Day17.AssemblyInfo.cs
+E:\10MinuteDev\C#\Day17\obj\Debug\net9.0\Day17.csproj.CoreCompileInputs.cache
+E:\10MinuteDev\C#\Day17\obj\Debug\net9.0\Day17.sourcelink.json
+E:\10MinuteDev\C#\Day17\bin\Debug\net9.0\Day17.exe
+E:\10MinuteDev\C#\Day17\bin\Debug\net9.0\Day17.deps.json
+E:\10MinuteDev\C#\Day17\bin\Debug\net9.0\Day17.runtimeconfig.json
+E:\10MinuteDev\C#\Day17\bin\Debug\net9.0\Day17.dll
+E:\10MinuteDev\C#\Day17\bin\Debug\net9.0\Day17.pdb
+E:\10MinuteDev\C#\Day17\obj\Debug\net9.0\Day17.dll
+E:\10MinuteDev\C#\Day17\obj\Debug\net9.0\refint\Day17.dll
+E:\10MinuteDev\C#\Day17\obj\Debug\net9.0\Day17.pdb
+E:\10MinuteDev\C#\Day17\obj\Debug\net9.0\Day17.genruntimeconfig.cache
+E:\10MinuteDev\C#\Day17\obj\Debug\net9.0\ref\Day17.dll
