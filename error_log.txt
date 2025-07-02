@@ -1,0 +1,7 @@
+Grade error for student jhered: Grade must be 0 to 100.
+Grade error for student jhered: could not convert string to float: '& C:/Python313/python.exe e:/10MinuteDev/Python/practice.py'
+Grade error for student jhered: Grade must be 0 to 100.
+Grade error for student ezekiel: Grade must be 0 to 100.
+Grade error for student red: could not convert string to float: ''
+Grade error for student ezekiel: could not convert string to float: ''
+Grade error for student ezekiel: could not convert string to float: ''

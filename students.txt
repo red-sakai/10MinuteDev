@@ -1,0 +1,15 @@
+Name: jhered
+Age: 19
+ Average Grade: <bound method Student.calculate_average of <__main__.Student object at 0x000001CE492870E0>>
+
+Name: red
+Age: 19
+ Average Grade: 55.4
+
+Name: redjhe
+Age: 19
+ Average Grade: 57.75
+Name: ezekiel
+Age: 20
+ Average Grade: 58.25
+
