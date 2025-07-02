@@ -28,5 +28,25 @@ body {
 .wholetext {
   text-align: center;
   margin: 0 auto;
-  padding: 400px;
+  padding: 20px;
+  max-width: 800px; /*this is so that the text won't be too wide depending on the device*/
+  min-height: 100vh; /*this is so that the minimum height required for a device for the text to be
+  centered is 100vh, vh = viewport height*/
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.h1text {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.h2text {
+  font-size: 25px;
+}
+
+.ptext {
+  font-size: 15px;
 }

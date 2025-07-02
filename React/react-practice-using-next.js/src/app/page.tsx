@@ -8,11 +8,11 @@ export default function Home() {
 
   return (
     <div className="wholetext">
-      <h1>Hello World!</h1>
-      <h2>My name is {name}, and as of making this I am {age} years old!</h2>
-      <p>The sole purpose of making this was in order for me to practice react with next.js
-        framework, two birds one stone. With a bit of knowledge from our LogistIQ project, I 
-        was able to learn a bit of javascript and I will now be using that to learn react with
+      <h1 className="h1text">Hello World!</h1>
+      <h2 className="h2text">My name is {name}, and as of making this I am {age} years old!</h2>
+      <p className="ptext"><br></br><br></br><br></br><br></br>The sole purpose of making this was in order for me to practice react with next.js
+        framework, two birds one stone. <br></br>With a bit of knowledge from our LogistIQ project, I 
+        was able to learn a bit of javascript and <br></br>I will now be using that to learn react with
         next.js framework.
       </p>
     </div>
