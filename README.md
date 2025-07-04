@@ -1,26 +1,37 @@
-# 10MinuteDev
-Welcome to my Daily Code Lab — a personal repository where I explore and practice different programming languages, one day at a time.
+## 🚀 10MinuteDev
+Welcome to my Daily Code Lab — a personal space where I challenge myself to learn, practice, and grow as a developer by coding every day.
+
+---
 
 ## 🎯 Purpose
-To build the habit of coding daily while learning and experimenting with various programming languages, tools, and concepts.
+The goal of this repository is to build a consistent coding habit while exploring different programming languages, tools, and software development concepts. It’s my way of staying sharp, staying curious, and leveling up — one day at a time.
 
-## 🧠 What to Expect
-Daily or regular practice sessions
+---
 
-Code snippets, exercises, and mini-projects
+## 🧠 What You'll Find Here
+🧩 Daily practice sessions (or as regular as possible!)
 
-Notes, reflections, and learning resources
+💻 Code snippets, exercises, and mini-projects
 
-Languages I'm learning:
+📝 Notes, reflections, and curated learning resources
 
-✅ C#
+---
 
-✅ Python
+## 🌐 Languages I'm Learning
+Here’s a look at what I’m currently diving into and what’s on the horizon:
 
-✅ JavaScript
+✅ Currently Exploring
+C#
 
-🟡 Java
+JavaScript
 
-🟡 C/C++
+React with Next.js
 
-🟡 Rust, Go, etc. (coming soon)
+Python
+
+🟡 Coming Soon
+Java
+
+C/C++
+
+Go (Golang)
