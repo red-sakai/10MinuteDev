@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "E:\\10MinuteDev\\C#\\Day18\\Day18.csproj": {}
+    "D:\\10MinuteDev\\C#\\Day18\\Day18.csproj": {}
   },
   "projects": {
-    "E:\\10MinuteDev\\C#\\Day18\\Day18.csproj": {
+    "D:\\10MinuteDev\\C#\\Day18\\Day18.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\10MinuteDev\\C#\\Day18\\Day18.csproj",
+        "projectUniqueName": "D:\\10MinuteDev\\C#\\Day18\\Day18.csproj",
         "projectName": "Day18",
-        "projectPath": "E:\\10MinuteDev\\C#\\Day18\\Day18.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "E:\\10MinuteDev\\C#\\Day18\\obj\\",
+        "projectPath": "D:\\10MinuteDev\\C#\\Day18\\Day18.csproj",
+        "packagesPath": "C:\\Users\\Jhered\\.nuget\\packages\\",
+        "outputPath": "D:\\10MinuteDev\\C#\\Day18\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Jhered\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
