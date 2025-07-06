@@ -1,10 +1,9 @@
-let number = 0;
-let numbers = 0;
-let sum = numbers + number
+let sum = 0;
 
 document.getElementById("addButton").onclick = function() {
-    let numbers = parseFloat(document.getElementById("numbersTypebox").value);
-    let sum = numbers + number
+    let number = parseFloat(document.getElementById("numbersTypebox").value);
+    sum += number;
+    document.getElementById("numbersTypebox").value = "";
 }
 
 document.getElementById("doneButton").onclick = function() {
