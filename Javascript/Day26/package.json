@@ -1,0 +1,11 @@
+{
+  "name": "js-modules-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "JavaScript modules learning project",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "keywords": ["javascript", "modules", "es6", "import", "export"]
+}
