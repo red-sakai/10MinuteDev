@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Debugging Demo</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        button { margin: 10px; padding: 10px; background: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; }
+        button:hover { background: #0056b3; }
+        .result { margin: 20px 0; padding: 15px; background: #f8f9fa; border-radius: 5px; }
+        .debug-info { background: #d4edda; padding: 10px; margin: 10px 0; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>JavaScript Debugging Demo</h1>
+    <div class="debug-info">
+        <strong>Open Browser Dev Tools (F12) to see console output and set breakpoints!</strong>
+    </div>
+    
+    <button onclick="basicDebugging()">Basic Console Logging</button>
+    <button onclick="arrayDebugging()">Array Processing Debug</button>
+    <button onclick="objectDebugging()">Object Manipulation Debug</button>
+    <button onclick="errorDebugging()">Error Handling Debug</button>
+    <button onclick="performanceDebugging()">Performance Debug</button>
+    
+    <div id="result" class="result">
+        <h3>Results will appear here:</h3>
+        <div id="output"></div>
+    </div>
+</body>
+</html>
+<script src="script.js"></script>
