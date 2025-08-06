@@ -1,0 +1,41 @@
+Week 1: Getting Started with DSA & Python Refresher
+Day	    Topic	                        Task
+1	    Setup + Python Basics	        Set up Python (IDLE or VSCode). Write a "Hello World" program. Review variables, input/output.
+2	    Data Types + Operators	        Practice with strings, integers, floats, booleans. Use arithmetic, comparison, logical operators.
+3	    Lists (Arrays)	                Declare, access, and modify Python lists. Loop through lists.
+4	    Tuples & Sets	                Understand immutability with tuples. Learn set operations (union, intersection, etc).
+5	    Dictionaries (HashMaps)	        Use key-value pairs. Add, delete, and access elements.
+6	    Time Complexity (Big O)	        Learn basics of time/space complexity. Analyze simple functions.
+7	    Mini-Project #1	                Create a Student Record System using lists and dictionaries. Add, search, and update records.
+
+Week 2: Core Algorithms and Recursion
+Day	    Topic	                        Task
+8	    Recursion Basics	            Implement factorial, Fibonacci, and sum of list using recursion.
+9	    Searching Algorithms	        Write linear and binary search (recursive + iterative).
+10	    Sorting: Bubble & Selection	    Implement and compare Bubble Sort and Selection Sort.
+11	    Sorting: Insertion & Merge	    Write Insertion Sort and recursive Merge Sort.
+12	    Sorting: Quick Sort	Implement   Quick Sort and understand pivoting.
+13	    Problem Solving (Sorting)	    Solve problems involving sorting (e.g., sort strings, find k-largest).
+14	    Mini-Project #2	                Build a leaderboard app that ranks scores using sorting algorithms.
+
+Week 3: Linear and Tree Data Structures
+Day	    Topic	                        Task
+15	    Stack	                        Use list or collections.deque to implement stack. Solve valid parenthesis, reverse string.
+16	    Queue & Deque	                Implement queue using deque. Practice enqueue, dequeue operations.
+17	    Linked List (Singly)	        Create your own singly linked list class with insert, delete, and search methods.
+18	    Linked List (Doubly/Circular)	Extend your class to support doubly and circular linked lists.
+19	    Binary Tree Basics	            Build a binary tree and implement inorder, preorder, and postorder traversals.
+20	    Binary Search Tree (BST)	    Implement insert, search, and delete in a BST.
+21	    Mini-Project #3	                Build a directory-like file explorer using a tree structure.
+
+Week 4: Advanced DSA & Problem Solving
+Day	    Topic	                        Task
+22	    Hashing & Sets	                Solve problems using hashmaps/sets (e.g., duplicates, anagrams).
+23	    Graph Basics	                Represent graphs using adjacency list/matrix. Visualize simple graphs.
+24	    Graph Traversals (BFS, DFS)	    Implement BFS and DFS using queue and recursion.
+25	    Cycle Detection in Graphs	    Detect cycles in directed and undirected graphs.
+26	    Heaps and Priority Queue	    Use heapq to solve top-K problems, min/max heap.
+27	    Sliding Window Technique	    Implement max sum subarray, longest substring w/o repeating chars.
+28	    Two Pointers Technique	        Solve problems like pair sum, reverse string in-place, etc.
+29	    Dynamic Programming Basics	    Implement memoized Fibonacci, climbing stairs, coin change.
+30	    Final Project	                Build a basic pathfinding visualizer, grade tracker, or task planner using DSA concepts.
