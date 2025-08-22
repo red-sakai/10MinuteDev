@@ -34,6 +34,11 @@ def number_two(strings):
 def number_three(people):
     return sorted(people, key=lambda x: x[1])
 
+import heapq
+
+def number_four(arr, k):
+    return heapq.nlargest(k, arr)
+
 if __name__ == "__main__":
     example = [5, 6, 1, 2, 7, 9, 10, 23, 3, 4]
     sorted_list = number_one(example)
@@ -44,3 +49,6 @@ if __name__ == "__main__":
 
     people = [("Jhered", 19), ("Shaikah", 18)]
     print(number_three(people))
+
+    arr = [5, 1, 9, 3, 7]
+    print(number_four(arr, 2))
