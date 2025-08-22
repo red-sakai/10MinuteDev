@@ -2,10 +2,6 @@
 
 # 1. Given a list of integers, sort them in ascending order.
 # 2. Given a list of strings, sort them in alphabetical order.
-# You can use the built-in sorted() function or the .sort() method.
-# Example:
-# names = ["banana", "apple", "cherry"]
-# sorted_names = sorted(names)  # ['apple', 'banana', 'cherry']
 # 3. Given a list of tuples (name, age), sort the list by age.
 # 4. Given a list of numbers, find the k largest elements.
 # 5. Given a string, return its characters sorted alphabetically.
@@ -35,6 +31,9 @@ def number_one(arr):
 def number_two(strings):
     return sorted(strings)
 
+def number_three(people):
+    return sorted(people, key=lambda x: x[1])
+
 if __name__ == "__main__":
     example = [5, 6, 1, 2, 7, 9, 10, 23, 3, 4]
     sorted_list = number_one(example)
@@ -42,3 +41,6 @@ if __name__ == "__main__":
 
     names = ["banana", "apple", "cherry"]
     print(number_two(names))
+
+    people = [("Jhered", 19), ("Shaikah", 18)]
+    print(number_three(people))
