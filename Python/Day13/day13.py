@@ -43,10 +43,10 @@ def number_five(s):
     return ''.join(sorted(s))
 
 def number_six(dicts):
-    """
-    Sorts a list of dictionaries by the 'score' key in descending order.
-    """
     return sorted(dicts, key=lambda d: d['score'], reverse=True)
+
+def number_seven(words):
+    return sorted(words, key=len)
 
 if __name__ == "__main__":
     example = [5, 6, 1, 2, 7, 9, 10, 23, 3, 4]
@@ -67,3 +67,6 @@ if __name__ == "__main__":
 
     dicts = [{'name': 'Alice', 'score': 90}, {'name': 'Bob', 'score': 95}]
     print(number_six(dicts))
+
+    words = ["banana", "apple", "kiwi", "fig"]
+    print(number_seven(words))
