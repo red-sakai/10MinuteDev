@@ -48,6 +48,17 @@ def number_six(dicts):
 def number_seven(words):
     return sorted(words, key=len)
 
+def number_eight(arr):
+    n = len(arr)
+    arr = arr[:]
+    for i in range(n):
+        max_idx = i
+        for j in range(i+1, n):
+            if arr[j] > arr[max_idx]:
+                max_idx = j
+        arr[i], arr[max_idx] = arr[max_idx], arr[i]
+    return arr
+
 if __name__ == "__main__":
     example = [5, 6, 1, 2, 7, 9, 10, 23, 3, 4]
     sorted_list = number_one(example)
@@ -70,3 +81,6 @@ if __name__ == "__main__":
 
     words = ["banana", "apple", "kiwi", "fig"]
     print(number_seven(words))
+
+    arr2 = [5, 1, 9, 3, 7]
+    print(number_eight(arr2))
