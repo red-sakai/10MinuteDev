@@ -59,6 +59,20 @@ def number_eight(arr):
         arr[i], arr[max_idx] = arr[max_idx], arr[i]
     return arr
 
+def number_nine(list1, list2):
+    i, j = 0, 0
+    merged = []
+    while i < len(list1) and j < len(list2):
+        if list1[i] < list2[j]:
+            merged.append(list1[i])
+            i += 1
+        else:
+            merged.append(list2[j])
+            j += 1
+    merged.extend(list1[i:])
+    merged.extend(list2[j:])
+    return merged
+
 if __name__ == "__main__":
     example = [5, 6, 1, 2, 7, 9, 10, 23, 3, 4]
     sorted_list = number_one(example)
@@ -84,3 +98,7 @@ if __name__ == "__main__":
 
     arr2 = [5, 1, 9, 3, 7]
     print(number_eight(arr2))
+
+    sorted1 = [1, 3, 5, 7]
+    sorted2 = [2, 4, 6, 8]
+    print(number_nine(sorted1, sorted2))
