@@ -49,29 +49,32 @@ def number_seven(words):
     return sorted(words, key=len)
 
 def number_eight(arr):
-    n = len(arr)
-    arr = arr[:]
-    for i in range(n):
-        max_idx = i
-        for j in range(i+1, n):
-            if arr[j] > arr[max_idx]:
-                max_idx = j
-        arr[i], arr[max_idx] = arr[max_idx], arr[i]
-    return arr
+    length = len(arr)
+    result = arr[:]
+    for current_index in range(length):
+        max_index = current_index
+        for compare_index in range(current_index + 1, length):
+            if result[compare_index] > result[max_index]:
+                max_index = compare_index
+        result[current_index], result[max_index] = result[max_index], result[current_index]
+    return result
 
-def number_nine(list1, list2):
-    i, j = 0, 0
+def number_nine(sorted_list1, sorted_list2):
+    index1, index2 = 0, 0
     merged = []
-    while i < len(list1) and j < len(list2):
-        if list1[i] < list2[j]:
-            merged.append(list1[i])
-            i += 1
+    while index1 < len(sorted_list1) and index2 < len(sorted_list2):
+        if sorted_list1[index1] < sorted_list2[index2]:
+            merged.append(sorted_list1[index1])
+            index1 += 1
         else:
-            merged.append(list2[j])
-            j += 1
-    merged.extend(list1[i:])
-    merged.extend(list2[j:])
+            merged.append(sorted_list2[index2])
+            index2 += 1
+    merged.extend(sorted_list1[index1:])
+    merged.extend(sorted_list2[index2:])
     return merged
+
+def number_ten(arr, k):
+    return heapq.nsmallest(k, arr)
 
 if __name__ == "__main__":
     example = [5, 6, 1, 2, 7, 9, 10, 23, 3, 4]
@@ -102,3 +105,6 @@ if __name__ == "__main__":
     sorted1 = [1, 3, 5, 7]
     sorted2 = [2, 4, 6, 8]
     print(number_nine(sorted1, sorted2))
+
+    arr3 = [5, 1, 9, 3, 7]
+    print(number_ten(arr3, 2))
