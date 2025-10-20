@@ -1,0 +1,41 @@
+Week 1: Getting Started with the Basics
+Day	Topic	                            Task
+1	Setup + Hello World	                Install Go, create your first .go file, print "Hello, World!"
+2	Variables & Data Types	            Learn int, float64, string, bool, rune; declare with var and :=
+3	Console Input/Output	            Use fmt.Scan() and fmt.Println()
+4	Operators	                        Arithmetic, comparison, logical, assignment
+5	Control Flow: if/else	            Make a number guessing or age checker app
+6	Switch Statements	                Use switch (including without expression)
+7	Mini-Project #1	                    Build a simple calculator CLI app
+
+Week 2: Core Programming Concepts
+Day	Topic	                            Task
+8	Loops: for	                        Practice counting, summing, and patterns (Go only has for)
+9	Range keyword	                    Iterate over slices, arrays, and strings with range
+10	Arrays	                            Declare fixed-size arrays, access elements
+11	Slices	                            Use dynamic slices with append() and make()
+12	Strings	                            Practice strings and runes, use strings package
+13	Functions	                        Define functions with multiple return values
+14	Mini-Project #2	                    Word counter or number analyzer tool
+
+Week 3: Intermediate Concepts & Structures
+Day	Topic	                            Task
+15	Structs	                            Create a simple Car or Person struct
+16	Methods	                            Add methods to structs with receivers
+17	Pointers	                        Understand pointer basics and pass by reference
+18	Interfaces	                        Create and implement simple interfaces
+19	Error Handling	                    Return and handle errors using error type
+20	Packages	                        Organize code into custom packages
+21	Mini-Project #3	                    Simple student management or bank account system
+
+Week 4: Advanced Basics + Wrap-Up
+Day	Topic	                            Task
+22	Maps	                            Use map[string]int and related operations
+23	Defer, Panic, Recover	            Learn defer for cleanup and basic panic/recover
+24	File I/O	                        Read/write files with os and ioutil packages
+25	JSON Handling	                    Marshal and unmarshal JSON data
+26	Goroutines	                        Create concurrent functions with go keyword
+27	Channels	                        Communicate between goroutines using channels
+28	Testing	                            Write unit tests using testing package
+29	Review + Refactor	                Review past projects and improve code
+30	Final Project	                    Small CLI tool (todo list, grade tracker, API client, etc.)
